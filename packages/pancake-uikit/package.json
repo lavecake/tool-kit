@@ -1,5 +1,5 @@
 {
-  "name": "anyswapuikit",
+  "name": "toolkit",
   "version": "1.0.20",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/young-peng/anyswap/tree/main/packages/pancake-uikit",
+  "repository": "https://github.com/lavecake/tool-kit/tree/main/packages/pancake-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",

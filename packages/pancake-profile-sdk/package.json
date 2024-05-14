@@ -1,11 +1,11 @@
 {
-  "name": "@anyswap/profile-sdk",
+  "name": "pintoolkit/profile-sdk",
   "version": "0.3.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
-  "repository": "https://github.com/young-peng/anyswap/tree/main/packages/pancake-profile-sdk",
+  "repository": "https://github.com/lavecake/tool-kit/tree/main/packages/pancake-profile-sdk",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "start": "yarn build && node ./dist",

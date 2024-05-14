@@ -1,12 +1,12 @@
 {
-  "name": "@anyswap/eslint-config-pancake",
+  "name": "pintoolkit/eslint-config-pancake",
   "version": "1.2.1",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/young-peng/anyswap/tree/main/packages/eslint-config-pancake",
+  "repository": "https://github.com/lavecake/tool-kit/tree/main/packages/eslint-config-pancake",
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,
