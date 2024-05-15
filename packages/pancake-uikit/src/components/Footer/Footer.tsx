@@ -65,16 +65,16 @@ const MenuItem: React.FC<FooterProps> = ({
                   ) : (
                     <StyledText>{label}</StyledText>
                   )}
-                  {index===0 && (
-                    <>
-                      <StyledSocialListItem>Social</StyledSocialListItem>
-                      <StyledListItem key="Social">
-                        <StyledSocialLinks mb={["0", null, "32px"]} />
-                      </StyledListItem>
-                    </>
-                  )}
                 </StyledListItem>
               ))}
+              {index===0 && (
+                <>
+                  <StyledSocialListItem>Social</StyledSocialListItem>
+                  <StyledListItem key="Social">
+                    <StyledSocialLinks mb={["0", null, "32px"]} />
+                  </StyledListItem>
+                </>
+              )}
             </StyledList>
           ))}
         </Flex>
