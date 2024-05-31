@@ -14,6 +14,13 @@ export const ModalHeader = styled.div<{ background?: string }>`
   padding: 12px 24px;
 `;
 
+export const ModalHeaderNoBorder = styled.div<{ background?: string }>`
+  align-items: center;
+  background: ${({ background }) => background || "transparent"};
+  display: flex;
+  padding: 12px 24px;
+`;
+
 export const ModalTitle = styled(Flex)`
   align-items: center;
   flex: 1;

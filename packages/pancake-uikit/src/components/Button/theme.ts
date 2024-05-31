@@ -69,8 +69,16 @@ export const styleVariants = {
     backgroundColor: "white",
     color: "backgroundAlt",
   },
-  [variants.PURPLE]: {
+  [variants.SECONDARY_BG]: {
     backgroundColor: "secondary",
+    color: "white",
+  },
+  [variants.PURPLE]: {
+    backgroundColor: "purple",
+    color: "white",
+  },
+  [variants.PINK]: {
+    backgroundColor: "pink",
     color: "white",
   },
   [variants.BG]: {

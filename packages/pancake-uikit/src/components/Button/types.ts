@@ -19,7 +19,9 @@ export const variants = {
   SUCCESS: "success",
   LIGHT: "light",
   WHITE: "white",
+  SECONDARY_BG: "secondaryBG",
   PURPLE: "purple",
+  PINK: "pink",
   BG: "bg",
 } as const;
 

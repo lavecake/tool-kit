@@ -155,6 +155,7 @@ export { default as LogoBottom } from "./newIcons/LogoBottom";
 export { default as LogoWithBottomText } from "./newIcons/LogoWithBottomText";
 export { default as MediumIcon } from "./newIcons/Medium";
 export { default as GitbookIcon } from "./newIcons/Gitbook";
+export { default as SquareIcon } from "./newIcons/Square";
 
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";
