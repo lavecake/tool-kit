@@ -14,6 +14,7 @@ const Modal: React.FC<ModalProps> = ({
   bodyPadding = "24px",
   headerBackground = "transparent",
   minWidth = "320px",
+  noBorder = false,
   ...props
 }) => {
   const theme = useTheme();
