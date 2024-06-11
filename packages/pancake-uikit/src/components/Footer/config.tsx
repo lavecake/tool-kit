@@ -96,6 +96,11 @@ export const socials = [
     icon: "Medium",
     href: "https://medium.com/@pinswap",
   },
+  {
+    label: "Github",
+    icon: "Github",
+    href: "https://github.com/PinSwap-IoteX/contract-core",
+  },
   // {
   //   label: "Reddit",
   //   icon: "Reddit",
